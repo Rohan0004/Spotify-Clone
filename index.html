@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="main-container text-white d-flex">
+        <section class="left-panel">
+            <div class="logo-container">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
+                    alt="logo">
+            </div>
+
+            <nav class="navbar-container">
+                <div class="home-btn">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>Home
+                </div>
+                <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>Search
+                </div>
+                <div class="library_btn">
+                    <i class="fa-solid fa-lines-leaning" style="color: #ffffff;"></i>Your Library
+                </div>
+            </nav>
+
+            <div class="head-playlist-container">
+                <div class="head-playlist-1">
+                    <img src="https://misc.scdn.co/liked-songs/liked-songs-64.png" alt="Create-playlist">
+                    Create playlist
+                </div>
+
+                <div class="head-playlist-2">
+                    <img src="https://images.unsplash.com/photo-1521136095380-08fbd7be93c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                        alt="playlist-2">
+                    Drive Thru
+                </div>
+
+                <div class="head-playlist-3">
+                    <img src="https://images.unsplash.com/photo-1553729784-e91953dec042?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                        alt="playlist-3">
+                    Relaxing Reading
+                </div>
+
+                <div class="liked-list">
+                    <img src="https://misc.scdn.co/liked-songs/liked-songs-64.png" alt="liked-list">
+                    Liked Songs
+                </div>
+            </div>
+
+            <div class="title-list-container text-center my-5">
+                <ul class="title-list">
+                    <li>Trending</li>
+                    <li>Daily Mix</li>
+                    <li>Discover Weekly</li>
+                    <li>English</li>
+                    <li>Dance / Electronix Mix</li>
+                    <li>EDM / Popular</li>
+                </ul>
+            </div>
+
+            <button class="my-download-btn mb-2">
+                <span><i class="fa-solid fa-arrow-down" style="color: #ffffff;"></i></span>
+                Install App
+            </button>
+        </section>
+
+        <section class="main-body d-flex flex-column">
+            <div class="header d-flex justify-content-between">
+                <div class="nav-btns d-flex justify-content-between">
+                    <div class="nav-btns-bg">
+                        <a href="./index.html"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                    <div class="nav-btns-bg">
+                        <a href="./my-playlist.html"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-container d-flex justify-content-center
+                align-items-center">
+                    <div class="pb-1 profile-img"><i class="fa-solid fa-user" style="color: #ff1f1f;"></i></div>
+                    <h4 class="mx-0">Rohan Raut</h4>
+                    <div class="profile-more-btn pb-2"><i class="fa-solid fa-sort-down" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="greetings p-4">Good Afternoon</h2>
+
+            <div class="recents-highlight d-flex flex-wrap align-items-center
+            justify-content-start px-4">
+                <div class="recent-card d-flex align-items-center justify-content-between me-4 mb-4">
+                    <div class="recent-card-img">
+                        <img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png" width="80px"
+                            height="80px" alt="img" />
+                    </div>
+
+                    <div class="recent-card-name px-4">
+                        Liked Songs
+                    </div>
+                    <button class="btn recent-card-btn"><i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                </div>
+
+                <div class="recent-card d-flex align-items-center justify-content-between me-4 mb-4">
+                    <div class="recent-card-img">
+                        <img src="https://t.scdn.co/media/derived/edm-274x274_0ef612604200a9c14995432994455a6d_0_0_274_274.jpg"
+                            width="80px" height="80px" alt="img" />
+                    </div>
+
+                    <div class="recent-card-name px-4">
+                        Dance/Electronic Mix
+                    </div>
+                    <button class="btn recent-card-btn"><i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                </div>
+
+                <div class="recent-card d-flex align-items-center justify-content-between me-4 mb-4">
+                    <div class="recent-card-img">
+                        <img src="https://i.scdn.co/image/ab67706c0000da84400181f7a0a7b13022645696" width="80px"
+                            height="80px" alt="img" />
+                    </div>
+
+                    <div class="recent-card-name px-4">
+                        Best Punjabi Songs
+                    </div>
+                    <button class="btn recent-card-btn"><i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                </div>
+
+                <div class="recent-card d-flex align-items-center justify-content-between me-4 mb-4">
+                    <div class="recent-card-img">
+                        <img src="https://i.scdn.co/image/ab67706c0000da84e40ef12c987d8918b292d7aa" width="80px"
+                            height="80px" alt="img" />
+                    </div>
+
+                    <div class="recent-card-name px-4">
+                        Drive (Hindi)
+                    </div>
+                    <button class="btn recent-card-btn"><i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="playlist-container d-flex flex-column align-items-start ms-4 mt-2 mb-5">
+                <div class="playlist d-flex flex-column align-items-start mt-5">
+                    <div class="playlist-title ms-1 mb-2 w-100 d-flex
+                    justify-content-between pe-5">
+                        <h4>Trending</h4>
+                        <a class="see-all-btn" href="./my-playlist.html">SEE ALL</a>
+                    </div>
+                    <div class="playlist-songs-container d-flex flex-wrap align-items-center
+                    justify-content-start">
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f000000025657daa09c838f52be189545" />
+                            <p class="fw-bold mb-0">Hot Hits Punjabi</p>
+                            <p class="fw-lighter mb-0">
+                                Catch the hottest Punjabi tracks with Karan Aujla.
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" />
+                            <p class="fw-bold mb-0">Top 50 - India</p>
+                            <p class="fw-lighter mb-0">
+                                Your daily update of the most played tracks, India.
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" />
+                            <p class="fw-bold mb-0">Top 50 - Global</p>
+                            <p class="fw-lighter mb-0">
+                                Your daily update of the most played tracks, Global.
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f00000002975118eef110cf76bc26137d" />
+                            <p class="fw-bold mb-0">Hot Hits Hindi</p>
+                            <p class="fw-lighter mb-0">
+                                Hottest Hindi music served here. Cover - Jawan
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f0000000221bc94b12d8a6f918667e641" />
+                            <p class="fw-bold mb-0">Punjabi 101</p>
+                            <p class="fw-lighter mb-0">
+                                Ultimate 101 Punjabi Hits with AP Dhillon
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f00000002c108bd0b6dd621170f420f45" />
+                            <p class="fw-bold mb-0">Deep Focus</p>
+                            <p class="fw-lighter mb-0">
+                                Keep calm and focus with ambient and post-rock music.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist d-flex flex-column align-items-start mt-5">
+                    <div class="playlist-title ms-1 mb-2 w-100 d-flex
+                    justify-content-between pe-5">
+                        <h4>Made For Rohan</h4>
+                        <a class="see-all-btn" href="./my-playlist.html">SEE ALL</a>
+                    </div>
+                    <div class="playlist-songs-container d-flex flex-wrap align-items-center
+                    justify-content-start">
+
+                        <div class="song-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" />
+                            <p class="fw-bold mb-0">Top 50 - India</p>
+                            <p class="fw-lighter mb-0">
+                                Your daily update of the most played tracks, India.
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f00000002975118eef110cf76bc26137d" />
+                            <p class="fw-bold mb-0">Hot Hits Hindi</p>
+                            <p class="fw-lighter mb-0">
+                                Hottest Hindi music served here. Cover - Jawan
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" />
+                            <p class="fw-bold mb-0">Top 50 - Global</p>
+                            <p class="fw-lighter mb-0">
+                                Your daily update of the most played tracks, Global.
+                            </p>
+                        </div>
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f00000002c108bd0b6dd621170f420f45" />
+                            <p class="fw-bold mb-0">Deep Focus</p>
+                            <p class="fw-lighter mb-0">
+                                Keep calm and focus with ambient and post-rock music.
+                            </p>
+                        </div>
+
+
+
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f000000025657daa09c838f52be189545" />
+                            <p class="fw-bold mb-0">Hot Hits Punjabi</p>
+                            <p class="fw-lighter mb-0">
+                                Catch the hottest Punjabi tracks with Karan Aujla.
+                            </p>
+                        </div>
+                        <div class="song-card">
+                            <img src="https://i.scdn.co/image/ab67706f0000000221bc94b12d8a6f918667e641" />
+                            <p class="fw-bold mb-0">Punjabi 101</p>
+                            <p class="fw-lighter mb-0">
+                                Ultimate 101 Punjabi Hits with AP Dhillon
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </section>
+
+
+    <section class="song-player d-flex
+    justify-content-between align-items-center text-white w-100">
+        <div class="current-song d-flex
+        align-items-center">
+            <img src="https://i.scdn.co/image/ab67616d0000485160dbbb589dff0c57a3a4ffb2" alt="img">
+            <div class="song-name px-2">
+                <p class="my-0">Chaleya, From "Jawan"</p>
+                <p class="song-album my-0">Arijit Singh,Anirudh Ravichander, ...</p>
+            </div>
+            <i class="fa-solid fa-heart" style="color: #50fb72;"></i>
+        </div>
+
+        <div class="controller-container  w-100 d-flex justify-content-between align-items-center">
+            <div class="controller-mid d-flex
+        flex-column align-items-center justify-content-center w-50">
+                <div class="controller-btns">
+                    <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+                    <button class="btn play-btn">
+                        <i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                    <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="my-progress-bar d-flex align-items-center justify-content-center w-100">
+                    <h6 class="mb-0 me-2">2:36</h6>
+                    <div class="progress-bar-back">
+                        <div class="progress-bar-front"></div>
+                    </div>
+                    <h6 class="mb-0 ms-2">2:14</h5>
+                </div>
+            </div>
+
+            <div class="controller-right d-flex
+        align-items-center justify-content-center">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <i class="fa-solid fa-layer-group"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="progress-bar-back me-2">
+                    <div class="progress-bar-front"></div>
+                </div>
+                <i class="fa-solid fa-maximize"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

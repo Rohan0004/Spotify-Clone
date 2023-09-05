@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify PlayList</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="main-container text-white d-flex">
+        <section class="left-panel">
+            <div class="logo-container">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
+                    alt="logo">
+            </div>
+
+            <nav class="navbar-container">
+                <div class="home-btn">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i><a
+                        style="text-decoration: none; color: white; margin-left: -5px;" href="./index.html">
+                        Home
+                    </a>
+                </div>
+                <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>Search
+                </div>
+                <div class="library_btn">
+                    <i class="fa-solid fa-lines-leaning" style="color: #ffffff;"></i>Your Library
+                </div>
+            </nav>
+
+            <div class="head-playlist-container">
+                <div class="head-playlist-1">
+                    <img src="https://misc.scdn.co/liked-songs/liked-songs-64.png" alt="Create-playlist">
+                    Create playlist
+                </div>
+
+                <div class="head-playlist-2">
+                    <img src="https://images.unsplash.com/photo-1521136095380-08fbd7be93c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                        alt="playlist-2">
+                    Drive Thru
+                </div>
+
+                <div class="head-playlist-3">
+                    <img src="https://images.unsplash.com/photo-1553729784-e91953dec042?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                        alt="playlist-3">
+                    Relaxing Reading
+                </div>
+
+                <div class="liked-list">
+                    <img src="https://misc.scdn.co/liked-songs/liked-songs-64.png" alt="liked-list">
+                    Liked Songs
+                </div>
+            </div>
+
+            <div class="title-list-container text-center my-5">
+                <ul class="title-list">
+                    <li>Trending</li>
+                    <li>Daily Mix</li>
+                    <li>Discover Weekly</li>
+                    <li>English</li>
+                    <li>Dance / Electronix Mix</li>
+                    <li>EDM / Popular</li>
+                </ul>
+            </div>
+
+            <button class="my-download-btn mb-2">
+                <span><i class="fa-solid fa-arrow-down" style="color: #ffffff;"></i></span>
+                Install App
+            </button>
+        </section>
+
+        <section class="main-body d-flex flex-column my-playlist">
+            <div class="header d-flex justify-content-between">
+                <div class="nav-btns d-flex justify-content-between">
+                    <div class="nav-btns-bg">
+                        <a href="./index.html"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                    <div class="nav-btns-bg">
+                        <a href="./my-playlist.html"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-container d-flex justify-content-center
+                align-items-center">
+                    <div class="pb-1 profile-img"><i class="fa-solid fa-user" style="color: #ff1f1f;"></i></div>
+                    <h4 class="mx-0">Rohan Raut</h4>
+                    <div class="profile-more-btn pb-2"><i class="fa-solid fa-sort-down" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist-desc d-flex row align-items-center">
+                <div class="playlist-img col-lg-4
+                col-md-6 
+                offset-md-1">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                        alt="top 50-india" />
+                </div>
+
+                <div class="playlist-info col playlist-header d-flex
+                justify-content-between
+                align-items-start
+                flex-column
+                py-5">
+                    <p class="mt-4">PlayList</p>
+                    <h1 class=" mb-3 display-1 fw-bold 
+                    ">Top 50 - India</h1>
+                    <p class=" mb-4 fs-5 fw-normal">Spotify . 456,358 likes . 50 songs, 2 hr 5 min</p>
+                </div>
+            </div>
+
+            <div class="playlist-row1 ps-4
+            d-flex align-items-center">
+                <button class="btn">
+                    <i class="fa-solid fa-play" style="color: #000000"></i>
+                </button>
+                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                <i class="fa-solid fa-ellipsis" style="color: #a9a9a9"></i>
+            </div>
+
+            <div class="myplaylist-songs-container w-100 my-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Album</th>
+                            <th>Date Added</th>
+                            <th>
+                                <i class="fa-regular fa-clock" style="color: #c0c0c0"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>7</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>
+                                <div class="myplaylist-song-card d-flex
+                                align-items-center">
+                                    <img src="https://i.scdn.co/image/ab67616d0000485102ea9d69484ed871c3e34bea"
+                                        alt="heeriye">
+                                    <div class="song-desc-container">
+                                        <p>Heeriye (feat. Arijit Singh)</p>
+                                        <p>Jasleen Royal, Arijit Singh, Dulquer Salmaan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>Heeriye (feat. Arijit Singh)</td>
+                            <td>July 16, 2023
+                                <i class="fa-solid fa-heart" style="color: #00ff80;"></i>
+                            </td>
+                            <td>3:38</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </section>
+
+    <section class="song-player d-flex
+    justify-content-between align-items-center text-white w-100">
+        <div class="current-song d-flex
+        align-items-center">
+            <img src="https://i.scdn.co/image/ab67616d0000485160dbbb589dff0c57a3a4ffb2" alt="img">
+            <div class="song-name px-2">
+                <p class="my-0">Chaleya, From "Jawan"</p>
+                <p class="song-album my-0">Arijit Singh,Anirudh Ravichander, ...</p>
+            </div>
+            <i class="fa-solid fa-heart" style="color: #50fb72;"></i>
+        </div>
+
+        <div class="controller-container  w-100 d-flex justify-content-between align-items-center">
+            <div class="controller-mid d-flex
+        flex-column align-items-center justify-content-center w-50">
+                <div class="controller-btns">
+                    <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+                    <button class="btn play-btn">
+                        <i class="fa-solid fa-play" style="color: #000000;"></i>
+                    </button>
+                    <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="my-progress-bar d-flex align-items-center justify-content-center w-100">
+                    <h6 class="mb-0 me-2">2:36</h6>
+                    <div class="progress-bar-back">
+                        <div class="progress-bar-front"></div>
+                    </div>
+                    <h6 class="mb-0 ms-2">2:14</h5>
+                </div>
+            </div>
+
+            <div class="controller-right d-flex
+        align-items-center justify-content-center">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <i class="fa-solid fa-layer-group"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="progress-bar-back me-2">
+                    <div class="progress-bar-front"></div>
+                </div>
+                <i class="fa-solid fa-maximize"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
